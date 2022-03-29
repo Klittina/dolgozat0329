@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Szedlár Krisztina</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main>
+        <header><h2>Űrlap dolgozat - 2022.03.29.</h2></header>
+        <article>
+            <form action="#/action_page.php">
+                <div id="adatok">
+                    <div class="cim"><h3>Adatok:</h3></div>
+                    <label >Vezetéknév:</label>
+                    <input type="text" id="fname" class="bevitel" onfocus="this.value=''" name="country_code" pattern="[A-Za-z]{3,}" value="Kovács" title="Nagy betűvel kezdődik, minimum 3 betűs, utánna csak kis betű van."><br><br>
+                    <label >Keresztnév:</label>
+                    <input type="text" id="country_code" class="bevitel" onfocus="this.value=''" name="country_code" value="János" pattern="[A-Za-z]{5,}" title="Csak betű lehet, minimum 5 karakter."><br><br>
+                </div>
+                <div id="ebed">
+                    <div class="cim"><h3>Mai ebéd:</h3></div>
+                    <input type="radio" id="ebed1" name="ebed" value="Spagetti">
+                    <label for="ebed1"> Spagetti</label>
+                    <input type="radio" id="ebed2" name="ebed" value="Kacsasült">
+                    <label for="ebed2"> Kacsasült</label>
+                    <input type="radio" id="ebed3" name="ebed" value="Hal rizzsel">
+                    <label for="ebed3"> Hal rizzsel</label>
+                </div>
+                <div id="fizetes">
+                    <div class="cim"><h3>Fizetés módja:</h3></div>
+                    <input type="checkbox" id="fizetes1" name="fizetes" value="anyának puszi">
+                    <label for="fizetes1"> anyának puszi</label>
+                    <input type="checkbox" id="fizetes2" name="fizetes" value="bankkártya">
+                    <label for="fizetes2"> bankkártya</label>
+                    <input type="checkbox" id="fizetes3" name="fizetes" value="köszönöm">
+                    <label for="fizetes3"> köszönöm</label><br>
+                    <button id="submit">Submit</button>
+                </div>
+                
+                
+              </form> 
+        </article>
+    </main>
+    
+</body>
+</html>
